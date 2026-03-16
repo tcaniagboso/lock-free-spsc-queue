@@ -1,0 +1,1618 @@
+==================================================
+Payload Size: 16
+Capacity: 256
+Producers: 1
+Consumers: 1
+Push Operations: 100000
+Pop Operations: 100000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.09384e+07
+PUSH:
+	Avg latency (ns): 41.2718
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 32610
+
+POP:
+	Avg latency (ns): 41.5587
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 95770
+
+[Mutex Queue]
+Throughput (ops/sec): 7.17966e+06
+PUSH:
+	Avg latency (ns): 173.276
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 29685
+	Min latency (ns): 0
+	Max latency (ns): 129030
+
+POP:
+	Avg latency (ns): 150.871
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 7800
+	Min latency (ns): 0
+	Max latency (ns): 116571
+
+
+==================================================
+Payload Size: 16
+Capacity: 256
+Producers: 1
+Consumers: 1
+Push Operations: 1000000
+Pop Operations: 1000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.19091e+07
+PUSH:
+	Avg latency (ns): 41.5209
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 56444
+
+POP:
+	Avg latency (ns): 41.0666
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 61535
+
+[Mutex Queue]
+Throughput (ops/sec): 7.43382e+06
+PUSH:
+	Avg latency (ns): 166.294
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 28493
+	Min latency (ns): 0
+	Max latency (ns): 193490
+
+POP:
+	Avg latency (ns): 143.183
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 7692
+	Min latency (ns): 0
+	Max latency (ns): 194248
+
+
+==================================================
+Payload Size: 16
+Capacity: 256
+Producers: 1
+Consumers: 1
+Push Operations: 5000000
+Pop Operations: 5000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.23957e+07
+PUSH:
+	Avg latency (ns): 41.4631
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 155463
+
+POP:
+	Avg latency (ns): 40.3589
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 150697
+
+[Mutex Queue]
+Throughput (ops/sec): 7.8296e+06
+PUSH:
+	Avg latency (ns): 154.599
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 25892
+	Min latency (ns): 0
+	Max latency (ns): 454257
+
+POP:
+	Avg latency (ns): 142.631
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 8017
+	Min latency (ns): 0
+	Max latency (ns): 304427
+
+
+==================================================
+Payload Size: 16
+Capacity: 1024
+Producers: 1
+Consumers: 1
+Push Operations: 100000
+Pop Operations: 100000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.06869e+07
+PUSH:
+	Avg latency (ns): 39.9709
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 30334
+
+POP:
+	Avg latency (ns): 39.5331
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 46152
+
+[Mutex Queue]
+Throughput (ops/sec): 7.80763e+06
+PUSH:
+	Avg latency (ns): 151.552
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 15709
+	Min latency (ns): 0
+	Max latency (ns): 154163
+
+POP:
+	Avg latency (ns): 137.844
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 7150
+	Min latency (ns): 0
+	Max latency (ns): 132063
+
+
+==================================================
+Payload Size: 16
+Capacity: 1024
+Producers: 1
+Consumers: 1
+Push Operations: 1000000
+Pop Operations: 1000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.34227e+07
+PUSH:
+	Avg latency (ns): 39.0199
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 94904
+
+POP:
+	Avg latency (ns): 37.9384
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 94687
+
+[Mutex Queue]
+Throughput (ops/sec): 7.04782e+06
+PUSH:
+	Avg latency (ns): 175.139
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 29901
+	Min latency (ns): 0
+	Max latency (ns): 1049244
+
+POP:
+	Avg latency (ns): 148.092
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 8125
+	Min latency (ns): 0
+	Max latency (ns): 988033
+
+
+==================================================
+Payload Size: 16
+Capacity: 1024
+Producers: 1
+Consumers: 1
+Push Operations: 5000000
+Pop Operations: 5000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.25455e+07
+PUSH:
+	Avg latency (ns): 40.5064
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 199991
+
+POP:
+	Avg latency (ns): 40.1165
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 229457
+
+[Mutex Queue]
+Throughput (ops/sec): 7.35766e+06
+PUSH:
+	Avg latency (ns): 169.361
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 29143
+	Min latency (ns): 0
+	Max latency (ns): 426306
+
+POP:
+	Avg latency (ns): 142.291
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 7692
+	Min latency (ns): 0
+	Max latency (ns): 1360820
+
+
+==================================================
+Payload Size: 16
+Capacity: 4096
+Producers: 1
+Consumers: 1
+Push Operations: 100000
+Pop Operations: 100000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 2.9331e+07
+PUSH:
+	Avg latency (ns): 42.8105
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 28817
+
+POP:
+	Avg latency (ns): 41.8424
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 73669
+
+[Mutex Queue]
+Throughput (ops/sec): 7.98048e+06
+PUSH:
+	Avg latency (ns): 140.553
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 11484
+	Min latency (ns): 0
+	Max latency (ns): 132712
+
+POP:
+	Avg latency (ns): 132.889
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 6933
+	Min latency (ns): 0
+	Max latency (ns): 87536
+
+
+==================================================
+Payload Size: 16
+Capacity: 4096
+Producers: 1
+Consumers: 1
+Push Operations: 1000000
+Pop Operations: 1000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.08012e+07
+PUSH:
+	Avg latency (ns): 43.9737
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 75511
+
+POP:
+	Avg latency (ns): 43.1735
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 132388
+
+[Mutex Queue]
+Throughput (ops/sec): 7.75737e+06
+PUSH:
+	Avg latency (ns): 152.983
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 27842
+	Min latency (ns): 0
+	Max latency (ns): 159689
+
+POP:
+	Avg latency (ns): 136.103
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 7259
+	Min latency (ns): 0
+	Max latency (ns): 150264
+
+
+==================================================
+Payload Size: 16
+Capacity: 4096
+Producers: 1
+Consumers: 1
+Push Operations: 5000000
+Pop Operations: 5000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.34618e+07
+PUSH:
+	Avg latency (ns): 38.5201
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 142247
+
+POP:
+	Avg latency (ns): 38.499
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 136397
+
+[Mutex Queue]
+Throughput (ops/sec): 7.26804e+06
+PUSH:
+	Avg latency (ns): 173.944
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 29034
+	Min latency (ns): 0
+	Max latency (ns): 559235
+
+POP:
+	Avg latency (ns): 141.642
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 7908
+	Min latency (ns): 0
+	Max latency (ns): 392505
+
+
+==================================================
+Payload Size: 16
+Capacity: 16384
+Producers: 1
+Consumers: 1
+Push Operations: 100000
+Pop Operations: 100000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.04379e+07
+PUSH:
+	Avg latency (ns): 42.6069
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 44310
+
+POP:
+	Avg latency (ns): 41.892
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 84394
+
+[Mutex Queue]
+Throughput (ops/sec): 8.20985e+06
+PUSH:
+	Avg latency (ns): 126.424
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 7800
+	Min latency (ns): 0
+	Max latency (ns): 55252
+
+POP:
+	Avg latency (ns): 138.607
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 7366
+	Min latency (ns): 0
+	Max latency (ns): 145930
+
+
+==================================================
+Payload Size: 16
+Capacity: 16384
+Producers: 1
+Consumers: 1
+Push Operations: 1000000
+Pop Operations: 1000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.33109e+07
+PUSH:
+	Avg latency (ns): 38.9723
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 71069
+
+POP:
+	Avg latency (ns): 39.2481
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 80277
+
+[Mutex Queue]
+Throughput (ops/sec): 7.70238e+06
+PUSH:
+	Avg latency (ns): 160.425
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 29034
+	Min latency (ns): 0
+	Max latency (ns): 183956
+
+POP:
+	Avg latency (ns): 135.643
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 7908
+	Min latency (ns): 0
+	Max latency (ns): 153731
+
+
+==================================================
+Payload Size: 16
+Capacity: 16384
+Producers: 1
+Consumers: 1
+Push Operations: 5000000
+Pop Operations: 5000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.16491e+07
+PUSH:
+	Avg latency (ns): 40.7014
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 179948
+
+POP:
+	Avg latency (ns): 40.8377
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 95012
+
+[Mutex Queue]
+Throughput (ops/sec): 7.68672e+06
+PUSH:
+	Avg latency (ns): 157.274
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 28276
+	Min latency (ns): 0
+	Max latency (ns): 242566
+
+POP:
+	Avg latency (ns): 135.946
+	p50 latency (ns): 0
+	p95 latency (ns): 433
+	p999 latency (ns): 7476
+	Min latency (ns): 0
+	Max latency (ns): 523593
+
+
+==================================================
+Payload Size: 64
+Capacity: 256
+Producers: 1
+Consumers: 1
+Push Operations: 100000
+Pop Operations: 100000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.237e+07
+PUSH:
+	Avg latency (ns): 37.4081
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 21992
+
+POP:
+	Avg latency (ns): 39.003
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 90136
+
+[Mutex Queue]
+Throughput (ops/sec): 6.851e+06
+PUSH:
+	Avg latency (ns): 208.217
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 30876
+	Min latency (ns): 0
+	Max latency (ns): 152646
+
+POP:
+	Avg latency (ns): 183.34
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 10401
+	Min latency (ns): 0
+	Max latency (ns): 156005
+
+
+==================================================
+Payload Size: 64
+Capacity: 256
+Producers: 1
+Consumers: 1
+Push Operations: 1000000
+Pop Operations: 1000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.20351e+07
+PUSH:
+	Avg latency (ns): 40.3868
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 75294
+
+POP:
+	Avg latency (ns): 40.7132
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 89594
+
+[Mutex Queue]
+Throughput (ops/sec): 7.28572e+06
+PUSH:
+	Avg latency (ns): 195.579
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 29143
+	Min latency (ns): 0
+	Max latency (ns): 397922
+
+POP:
+	Avg latency (ns): 169.077
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 7692
+	Min latency (ns): 0
+	Max latency (ns): 481775
+
+
+==================================================
+Payload Size: 64
+Capacity: 256
+Producers: 1
+Consumers: 1
+Push Operations: 5000000
+Pop Operations: 5000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.27236e+07
+PUSH:
+	Avg latency (ns): 40.5383
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 119496
+
+POP:
+	Avg latency (ns): 40.1259
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 135638
+
+[Mutex Queue]
+Throughput (ops/sec): 7.28046e+06
+PUSH:
+	Avg latency (ns): 195.937
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 29793
+	Min latency (ns): 0
+	Max latency (ns): 304427
+
+POP:
+	Avg latency (ns): 168.524
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 7908
+	Min latency (ns): 0
+	Max latency (ns): 278751
+
+
+==================================================
+Payload Size: 64
+Capacity: 1024
+Producers: 1
+Consumers: 1
+Push Operations: 100000
+Pop Operations: 100000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.03614e+07
+PUSH:
+	Avg latency (ns): 40.9048
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 35101
+
+POP:
+	Avg latency (ns): 41.3141
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 34885
+
+[Mutex Queue]
+Throughput (ops/sec): 7.41334e+06
+PUSH:
+	Avg latency (ns): 189.549
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 29034
+	Min latency (ns): 0
+	Max latency (ns): 158606
+
+POP:
+	Avg latency (ns): 163.804
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 9209
+	Min latency (ns): 0
+	Max latency (ns): 94361
+
+
+==================================================
+Payload Size: 64
+Capacity: 1024
+Producers: 1
+Consumers: 1
+Push Operations: 1000000
+Pop Operations: 1000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.02992e+07
+PUSH:
+	Avg latency (ns): 44.5379
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 102812
+
+POP:
+	Avg latency (ns): 44.0473
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 103137
+
+[Mutex Queue]
+Throughput (ops/sec): 7.2939e+06
+PUSH:
+	Avg latency (ns): 199.141
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 29793
+	Min latency (ns): 0
+	Max latency (ns): 230432
+
+POP:
+	Avg latency (ns): 160.288
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 7909
+	Min latency (ns): 0
+	Max latency (ns): 152105
+
+
+==================================================
+Payload Size: 64
+Capacity: 1024
+Producers: 1
+Consumers: 1
+Push Operations: 5000000
+Pop Operations: 5000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.19373e+07
+PUSH:
+	Avg latency (ns): 41.1788
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 350362
+
+POP:
+	Avg latency (ns): 41.4004
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 345812
+
+[Mutex Queue]
+Throughput (ops/sec): 7.31025e+06
+PUSH:
+	Avg latency (ns): 195.598
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 30226
+	Min latency (ns): 0
+	Max latency (ns): 1790161
+
+POP:
+	Avg latency (ns): 166.898
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 7909
+	Min latency (ns): 0
+	Max latency (ns): 1726784
+
+
+==================================================
+Payload Size: 64
+Capacity: 4096
+Producers: 1
+Consumers: 1
+Push Operations: 100000
+Pop Operations: 100000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 2.93898e+07
+PUSH:
+	Avg latency (ns): 43.5339
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 84611
+
+POP:
+	Avg latency (ns): 43.9219
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 84719
+
+[Mutex Queue]
+Throughput (ops/sec): 7.30929e+06
+PUSH:
+	Avg latency (ns): 187.713
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 28709
+	Min latency (ns): 0
+	Max latency (ns): 176481
+
+POP:
+	Avg latency (ns): 167.102
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 10292
+	Min latency (ns): 0
+	Max latency (ns): 129029
+
+
+==================================================
+Payload Size: 64
+Capacity: 4096
+Producers: 1
+Consumers: 1
+Push Operations: 1000000
+Pop Operations: 1000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.2931e+07
+PUSH:
+	Avg latency (ns): 39.8447
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 162613
+
+POP:
+	Avg latency (ns): 39.6037
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 174098
+
+[Mutex Queue]
+Throughput (ops/sec): 7.21789e+06
+PUSH:
+	Avg latency (ns): 203.289
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 30226
+	Min latency (ns): 0
+	Max latency (ns): 205840
+
+POP:
+	Avg latency (ns): 161.459
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 9750
+	Min latency (ns): 0
+	Max latency (ns): 183089
+
+
+==================================================
+Payload Size: 64
+Capacity: 4096
+Producers: 1
+Consumers: 1
+Push Operations: 5000000
+Pop Operations: 5000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.13732e+07
+PUSH:
+	Avg latency (ns): 42.8133
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 210174
+
+POP:
+	Avg latency (ns): 42.3873
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 103787
+
+[Mutex Queue]
+Throughput (ops/sec): 7.00585e+06
+PUSH:
+	Avg latency (ns): 210.517
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 30009
+	Min latency (ns): 0
+	Max latency (ns): 911331
+
+POP:
+	Avg latency (ns): 164.098
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 8342
+	Min latency (ns): 0
+	Max latency (ns): 377446
+
+
+==================================================
+Payload Size: 64
+Capacity: 16384
+Producers: 1
+Consumers: 1
+Push Operations: 100000
+Pop Operations: 100000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 2.97915e+07
+PUSH:
+	Avg latency (ns): 42.2381
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 24484
+
+POP:
+	Avg latency (ns): 42.592
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 85803
+
+[Mutex Queue]
+Throughput (ops/sec): 7.38575e+06
+PUSH:
+	Avg latency (ns): 174.386
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 29792
+	Min latency (ns): 0
+	Max latency (ns): 161205
+
+POP:
+	Avg latency (ns): 178.522
+	p50 latency (ns): 0
+	p95 latency (ns): 216
+	p999 latency (ns): 22534
+	Min latency (ns): 0
+	Max latency (ns): 213965
+
+
+==================================================
+Payload Size: 64
+Capacity: 16384
+Producers: 1
+Consumers: 1
+Push Operations: 1000000
+Pop Operations: 1000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.03039e+07
+PUSH:
+	Avg latency (ns): 43.7952
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 133905
+
+POP:
+	Avg latency (ns): 43.3739
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 105953
+
+[Mutex Queue]
+Throughput (ops/sec): 7.33638e+06
+PUSH:
+	Avg latency (ns): 197.107
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 30335
+	Min latency (ns): 0
+	Max latency (ns): 264451
+
+POP:
+	Avg latency (ns): 162.625
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 8992
+	Min latency (ns): 0
+	Max latency (ns): 158172
+
+
+==================================================
+Payload Size: 64
+Capacity: 16384
+Producers: 1
+Consumers: 1
+Push Operations: 5000000
+Pop Operations: 5000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.31594e+07
+PUSH:
+	Avg latency (ns): 39.1807
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 101512
+
+POP:
+	Avg latency (ns): 39.4395
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 107037
+
+[Mutex Queue]
+Throughput (ops/sec): 7.19129e+06
+PUSH:
+	Avg latency (ns): 200.777
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 29684
+	Min latency (ns): 0
+	Max latency (ns): 2026552
+
+POP:
+	Avg latency (ns): 164.845
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 8126
+	Min latency (ns): 0
+	Max latency (ns): 1505018
+
+
+==================================================
+Payload Size: 256
+Capacity: 256
+Producers: 1
+Consumers: 1
+Push Operations: 100000
+Pop Operations: 100000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 2.97019e+07
+PUSH:
+	Avg latency (ns): 42.8619
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 94794
+
+POP:
+	Avg latency (ns): 41.2296
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 73778
+
+[Mutex Queue]
+Throughput (ops/sec): 5.56541e+06
+PUSH:
+	Avg latency (ns): 265.674
+	p50 latency (ns): 108
+	p95 latency (ns): 325
+	p999 latency (ns): 30009
+	Min latency (ns): 0
+	Max latency (ns): 167273
+
+POP:
+	Avg latency (ns): 227.104
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 10834
+	Min latency (ns): 0
+	Max latency (ns): 202373
+
+
+==================================================
+Payload Size: 256
+Capacity: 256
+Producers: 1
+Consumers: 1
+Push Operations: 1000000
+Pop Operations: 1000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.03016e+07
+PUSH:
+	Avg latency (ns): 42.4144
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 101078
+
+POP:
+	Avg latency (ns): 44.1196
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 217
+	Min latency (ns): 0
+	Max latency (ns): 112020
+
+[Mutex Queue]
+Throughput (ops/sec): 6.06162e+06
+PUSH:
+	Avg latency (ns): 243.918
+	p50 latency (ns): 108
+	p95 latency (ns): 325
+	p999 latency (ns): 30226
+	Min latency (ns): 0
+	Max latency (ns): 718924
+
+POP:
+	Avg latency (ns): 206.883
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 7583
+	Min latency (ns): 0
+	Max latency (ns): 732033
+
+
+==================================================
+Payload Size: 256
+Capacity: 256
+Producers: 1
+Consumers: 1
+Push Operations: 5000000
+Pop Operations: 5000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.06287e+07
+PUSH:
+	Avg latency (ns): 44.2733
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 330861
+
+POP:
+	Avg latency (ns): 43.4044
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 122421
+
+[Mutex Queue]
+Throughput (ops/sec): 5.6385e+06
+PUSH:
+	Avg latency (ns): 266.9
+	p50 latency (ns): 108
+	p95 latency (ns): 325
+	p999 latency (ns): 30551
+	Min latency (ns): 0
+	Max latency (ns): 369213
+
+POP:
+	Avg latency (ns): 212.517
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 8559
+	Min latency (ns): 0
+	Max latency (ns): 219383
+
+
+==================================================
+Payload Size: 256
+Capacity: 1024
+Producers: 1
+Consumers: 1
+Push Operations: 100000
+Pop Operations: 100000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 2.95677e+07
+PUSH:
+	Avg latency (ns): 42.0073
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 44634
+
+POP:
+	Avg latency (ns): 45.0403
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 63702
+
+[Mutex Queue]
+Throughput (ops/sec): 6.12863e+06
+PUSH:
+	Avg latency (ns): 237.86
+	p50 latency (ns): 108
+	p95 latency (ns): 325
+	p999 latency (ns): 29143
+	Min latency (ns): 0
+	Max latency (ns): 160664
+
+POP:
+	Avg latency (ns): 202.358
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 9967
+	Min latency (ns): 0
+	Max latency (ns): 151347
+
+
+==================================================
+Payload Size: 256
+Capacity: 1024
+Producers: 1
+Consumers: 1
+Push Operations: 1000000
+Pop Operations: 1000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.00136e+07
+PUSH:
+	Avg latency (ns): 45.0635
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 173231
+
+POP:
+	Avg latency (ns): 44.5047
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 211582
+
+[Mutex Queue]
+Throughput (ops/sec): 5.84747e+06
+PUSH:
+	Avg latency (ns): 253.76
+	p50 latency (ns): 108
+	p95 latency (ns): 325
+	p999 latency (ns): 29468
+	Min latency (ns): 0
+	Max latency (ns): 277884
+
+POP:
+	Avg latency (ns): 209.513
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 9209
+	Min latency (ns): 0
+	Max latency (ns): 220574
+
+
+==================================================
+Payload Size: 256
+Capacity: 1024
+Producers: 1
+Consumers: 1
+Push Operations: 5000000
+Pop Operations: 5000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.11551e+07
+PUSH:
+	Avg latency (ns): 42.5845
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 836686
+
+POP:
+	Avg latency (ns): 42.6126
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 1342187
+
+[Mutex Queue]
+Throughput (ops/sec): 6.12985e+06
+PUSH:
+	Avg latency (ns): 238.513
+	p50 latency (ns): 108
+	p95 latency (ns): 325
+	p999 latency (ns): 32067
+	Min latency (ns): 0
+	Max latency (ns): 2894547
+
+POP:
+	Avg latency (ns): 208.359
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 8233
+	Min latency (ns): 0
+	Max latency (ns): 2855546
+
+
+==================================================
+Payload Size: 256
+Capacity: 4096
+Producers: 1
+Consumers: 1
+Push Operations: 100000
+Pop Operations: 100000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 2.90769e+07
+PUSH:
+	Avg latency (ns): 44.6446
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 30226
+
+POP:
+	Avg latency (ns): 44.4771
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 74969
+
+[Mutex Queue]
+Throughput (ops/sec): 6.2065e+06
+PUSH:
+	Avg latency (ns): 239.172
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 32718
+	Min latency (ns): 0
+	Max latency (ns): 151239
+
+POP:
+	Avg latency (ns): 196.925
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 12459
+	Min latency (ns): 0
+	Max latency (ns): 76377
+
+
+==================================================
+Payload Size: 256
+Capacity: 4096
+Producers: 1
+Consumers: 1
+Push Operations: 1000000
+Pop Operations: 1000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.07981e+07
+PUSH:
+	Avg latency (ns): 41.4625
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 74753
+
+POP:
+	Avg latency (ns): 43.9133
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 217
+	Min latency (ns): 0
+	Max latency (ns): 291210
+
+[Mutex Queue]
+Throughput (ops/sec): 6.36568e+06
+PUSH:
+	Avg latency (ns): 235.815
+	p50 latency (ns): 108
+	p95 latency (ns): 217
+	p999 latency (ns): 32176
+	Min latency (ns): 0
+	Max latency (ns): 218516
+
+POP:
+	Avg latency (ns): 195.11
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 8775
+	Min latency (ns): 0
+	Max latency (ns): 355779
+
+
+==================================================
+Payload Size: 256
+Capacity: 4096
+Producers: 1
+Consumers: 1
+Push Operations: 5000000
+Pop Operations: 5000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.23228e+07
+PUSH:
+	Avg latency (ns): 40.4687
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 121879
+
+POP:
+	Avg latency (ns): 40.9924
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 147447
+
+[Mutex Queue]
+Throughput (ops/sec): 6.00835e+06
+PUSH:
+	Avg latency (ns): 248.96
+	p50 latency (ns): 108
+	p95 latency (ns): 325
+	p999 latency (ns): 32176
+	Min latency (ns): 0
+	Max latency (ns): 339095
+
+POP:
+	Avg latency (ns): 207.613
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 9317
+	Min latency (ns): 0
+	Max latency (ns): 221549
+
+
+==================================================
+Payload Size: 256
+Capacity: 16384
+Producers: 1
+Consumers: 1
+Push Operations: 100000
+Pop Operations: 100000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 2.86198e+07
+PUSH:
+	Avg latency (ns): 44.9539
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 55793
+
+POP:
+	Avg latency (ns): 44.6349
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 217
+	Min latency (ns): 0
+	Max latency (ns): 50268
+
+[Mutex Queue]
+Throughput (ops/sec): 6.16544e+06
+PUSH:
+	Avg latency (ns): 215.572
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 29142
+	Min latency (ns): 0
+	Max latency (ns): 231300
+
+POP:
+	Avg latency (ns): 230.029
+	p50 latency (ns): 0
+	p95 latency (ns): 217
+	p999 latency (ns): 28601
+	Min latency (ns): 0
+	Max latency (ns): 225558
+
+
+==================================================
+Payload Size: 256
+Capacity: 16384
+Producers: 1
+Consumers: 1
+Push Operations: 1000000
+Pop Operations: 1000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.18146e+07
+PUSH:
+	Avg latency (ns): 41.0662
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 70527
+
+POP:
+	Avg latency (ns): 40.8511
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 75728
+
+[Mutex Queue]
+Throughput (ops/sec): 6.71315e+06
+PUSH:
+	Avg latency (ns): 217.144
+	p50 latency (ns): 108
+	p95 latency (ns): 325
+	p999 latency (ns): 30984
+	Min latency (ns): 0
+	Max latency (ns): 187207
+
+POP:
+	Avg latency (ns): 193.551
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 8234
+	Min latency (ns): 0
+	Max latency (ns): 175506
+
+
+==================================================
+Payload Size: 256
+Capacity: 16384
+Producers: 1
+Consumers: 1
+Push Operations: 5000000
+Pop Operations: 5000000
+==================================================
+[Lock-Free SPSC Queue]
+Throughput (ops/sec): 3.15497e+07
+PUSH:
+	Avg latency (ns): 42.084
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 113537
+
+POP:
+	Avg latency (ns): 41.8431
+	p50 latency (ns): 0
+	p95 latency (ns): 109
+	p999 latency (ns): 109
+	Min latency (ns): 0
+	Max latency (ns): 113212
+
+[Mutex Queue]
+Throughput (ops/sec): 6.1389e+06
+PUSH:
+	Avg latency (ns): 241.327
+	p50 latency (ns): 108
+	p95 latency (ns): 325
+	p999 latency (ns): 32176
+	Min latency (ns): 0
+	Max latency (ns): 2323828
+
+POP:
+	Avg latency (ns): 206.385
+	p50 latency (ns): 0
+	p95 latency (ns): 325
+	p999 latency (ns): 8559
+	Min latency (ns): 0
+	Max latency (ns): 849579
